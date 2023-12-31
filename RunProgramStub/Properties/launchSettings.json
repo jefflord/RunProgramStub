@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "WSL": {
+      "commandName": "WSL2",
+      "distributionName": ""
+    },
+    "RunProgramStub loop": {
+      "commandName": "Project",
+      "commandLineArgs": "loop"
+    }
+  }
+}
