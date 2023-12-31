@@ -27,6 +27,15 @@ namespace RunProgramStub
                     }
                 }
 
+                if (programPath == "loop-and-stop")
+                {
+                    for (var i=0;i<100;i++)
+                    {
+                        Console.WriteLine($"Still here at {DateTime.Now}");
+                        Thread.Sleep(1000);
+                    }
+                }
+
 
                 string arguments = "";
 
